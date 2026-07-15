@@ -86,3 +86,32 @@ Happy modeling!
 [0m04:44:25.732595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79f40f2d1430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79f40a315370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79f40ed1bfb0>]}
 [0m04:44:25.733478 [debug] [MainThread]: Flushing usage events
 [0m04:44:26.906022 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:21:48.837769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1ccf6d1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1ccfd5190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1cd231b50>]}
+
+
+============================== 02:21:48.847211 | 8a26da60-3fda-4182-b029-60fcadc42daa ==============================
+[0m02:21:48.847211 [info ] [MainThread]: Running with dbt=1.11.12
+[0m02:21:48.848333 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'static_parser': 'True', 'fail_fast': 'False', 'target_path': 'None', 'warn_error': 'None', 'debug': 'False', 'partial_parse': 'True', 'invocation_command': 'dbt init northwindDW_duckdb2', 'empty': 'None', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'printer_width': '80', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'introspect': 'True', 'log_format': 'default', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'cache_selected_only': 'False', 'quiet': 'False', 'write_json': 'True', 'profiles_dir': '/home/codespace/.dbt'}
+[0m02:21:48.873010 [debug] [MainThread]: Starter project path: /usr/local/python/3.12.1/lib/python3.12/site-packages/dbt/include/starter_project
+[0m02:21:48.878685 [info ] [MainThread]: 
+Your new dbt project "northwindDW_duckdb2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:21:48.879670 [info ] [MainThread]: Setting up your profile.
+[0m02:21:53.250416 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 4.516736, "process_in_blocks": "18536", "process_kernel_time": 0.300533, "process_mem_max_rss": "156020", "process_out_blocks": "80", "process_user_time": 3.0589}
+[0m02:21:53.251153 [debug] [MainThread]: Command `dbt init` succeeded at 02:21:53.251007 after 4.52 seconds
+[0m02:21:53.251735 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1cbfeb440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1cc426b40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70f1cc1360f0>]}
+[0m02:21:53.252315 [debug] [MainThread]: Flushing usage events
+[0m02:21:54.294821 [debug] [MainThread]: An error was encountered while trying to flush usage events
